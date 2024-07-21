@@ -1,0 +1,17 @@
+package main;
+
+import bubblesort.BubbleSort;
+import insertionsort.InsertionSort;
+import selectionsort.SelectionSort;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		InsertionSort is = new InsertionSort();
+		int arr[] = {10, 5, 30, 15, 50 , 6};
+		is.insetionSort(arr);
+		is.printArray(arr);
+	}
+
+}

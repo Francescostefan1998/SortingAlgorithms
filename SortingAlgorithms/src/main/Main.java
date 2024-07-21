@@ -1,6 +1,7 @@
 package main;
 
 import bubblesort.BubbleSort;
+import bucketsort.BucketSort;
 import insertionsort.InsertionSort;
 import selectionsort.SelectionSort;
 
@@ -8,10 +9,12 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		InsertionSort is = new InsertionSort();
 		int arr[] = {10, 5, 30, 15, 50 , 6};
-		is.insetionSort(arr);
-		is.printArray(arr);
+		BucketSort bs = new BucketSort(arr);
+		bs.printArray(arr);
+		bs.bucketSort();
+		System.out.println();
+		bs.printArray(arr);
 	}
 
 }
