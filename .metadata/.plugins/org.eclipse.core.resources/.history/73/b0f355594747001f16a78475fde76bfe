@@ -1,16 +1,16 @@
 package main;
 
 import bubblesort.BubbleSort;
-import selectionsort.SelectionSort;
 
 public class Main {
 	
 	
 	public static void main(String[] args) {
-		SelectionSort ss = new SelectionSort();
+		BubbleSort bs = new BubbleSort();
 		int arr[] = {10, 5, 30, 15, 50 , 6};
-		ss.selectionSort(arr);
-		ss.printArray(arr);
+		bs.printArray(arr);
+		bs.bubbleSort(arr);
+		bs.printArray(arr);
 	}
 
 }
