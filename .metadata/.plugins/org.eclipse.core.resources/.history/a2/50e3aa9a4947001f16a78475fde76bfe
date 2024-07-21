@@ -1,7 +1,6 @@
 package main;
 
 import bubblesort.BubbleSort;
-import insertionsort.InsertionSort;
 import selectionsort.SelectionSort;
 
 public class Main {
