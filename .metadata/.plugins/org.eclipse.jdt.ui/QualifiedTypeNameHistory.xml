@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="bubblesort.BubbleSort"/>
     <fullyQualifiedTypeName name="selectionsort.SelectionSort"/>
     <fullyQualifiedTypeName name="insertionsort.InsertionSort"/>
+    <fullyQualifiedTypeName name="bucketsort.BucketSort"/>
 </qualifiedTypeNameHistroy>
